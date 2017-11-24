@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>净梵茶</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="./css/demo.css">
+  <link rel="stylesheet" href="./css/animate.min.css">
+  <script type="text/javascript">
+    ! function(a) {
+      function b() {
+        var b = a.document,
+          c = b.documentElement,
+          d = c.getBoundingClientRect().width;
+        document.documentElement.style.fontSize = 20 * (d / 360) + "px"
+      }
+      window.addEventListener("DOMContentLoaded", function() {
+        b()
+      }, !1), window.addEventListener("resize", function() {
+        b()
+      }), b()
+    }(window);
+  </script>
+</head>
+<body>
+  <div class="box">
+    <div class="pic logo animated fadeIn"></div>
+    <div class="pic yinpin animated fadeInLeft"></div>
+    <div class="pic leftyun1 animated fadeInLeft"></div>
+    <div class="pic leftyun2 animated fadeInLeft"></div>
+    <div class="pic rightyun animated fadeInRight"></div>
+  </div>
+  <div class="wrap">
+    <div class="main">
+      <a href="" target="_blank" class="chachan animated fadeInUp delay1"></a>
+      <a href="" target="_blank" class="chadian animated fadeInUp delay1"></a>
+      <a href="" target="_blank" class="chajia animated fadeInUp delay2"></a>
+      <a href="" target="_blank" class="chake animated fadeInUp delay2"></a>
+      <a href="" target="_blank" class="chapin animated fadeInUp delay3"></a>
+      <a href="" target="_blank" class="chayin animated fadeInUp delay3"></a>
+      <a href="" target="_blank" class="charen animated fadeInUp delay4"></a>
+    </div>
+  </div>
+  <div class="music animate" id='btn'></div>
+  <div class="gif"></div>
+  <script type="text/javascript">
+    window.onload = function(){
+    var oBox = document.getElementsByClassName('box')[0]
+    var btn = document.getElementById('btn')
+      setTimeout(function(){
+        oBox.className = 'hide'
+      },3000)
+      btn.onclick = function(){
+        
+      }
+    }
+  </script>
+</body>
+</html>
